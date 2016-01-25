@@ -115,7 +115,7 @@ int main(int argc, char const *argv[])
       if(diag % 2 == 0)
         diag++;
 
-      printf("Case %d: %d\n",  ++c, compute_cells(diag));
+      printf("Case %d: %lld\n",  ++c, compute_cells(diag));
     }
     
     return 0;
